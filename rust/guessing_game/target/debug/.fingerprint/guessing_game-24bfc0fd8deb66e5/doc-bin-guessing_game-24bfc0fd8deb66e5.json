@@ -1,0 +1,1 @@
+{"rustc":6858120930567365360,"target":15452561628744269929,"profile":17879379437418342571,"local":{"variant":"Precalculated","fields":["1494158489.000000000s (/Users/sb/Github/keepAwakeWhenSleeping/rust/guessing_game/src/#main.rs#)"]},"features":"None","deps":[["rand v0.3.15",11035705378605780506],["rand v0.3.15",6892276388449502886]],"rustflags":[]}
