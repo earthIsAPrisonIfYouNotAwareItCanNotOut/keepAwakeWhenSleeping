@@ -4,3 +4,5 @@ version = "0.1.0"
 authors = ["sb <dai88508332@gmail.com>"]
 
 [dependencies]
+rand = "0.3.14" # create package
+# rand = "0.4.0"  update package

@@ -11,12 +11,12 @@ if (/\p{Digit}/) {         # 550 different possible characters in v5.24
   print "The string has a digit.\n";
 }
 
-# matching two hex digits
+# matching two hex digits [0-9a-fA-F]
 if (/\p{AHex}\p{AHex}/) {       # 22 different possible characters
   print "The string has a pair of hex digits.\n";
 }
 
-# use P to nagate the property
+# use P to negate the property
 if (/\P{Space}/) {              # Not space (many many characters!)
   print "The string has one or more nonwhitespace characters.\n";
 }

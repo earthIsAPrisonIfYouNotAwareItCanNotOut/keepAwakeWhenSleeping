@@ -25,7 +25,7 @@ while ( <STDIN> ) {
 # a slightly hazardous way to program since that argument could be anything and Perl has regex features to execute arbitrary code
 while ( <STDIN> ) {
   chomp;
-  if ( /$ARGV[0]/ ) {           # May be hazardous for your health
+  if ( /$ARGV[0]/ ) {           # May be hazardous
     print "\tMatches\n";
   } else {
     print "\tDoesn't match\n";

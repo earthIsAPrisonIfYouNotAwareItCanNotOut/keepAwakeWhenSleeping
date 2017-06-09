@@ -41,8 +41,7 @@ when the perl parser sees the slash after -s operator, it will looking for the o
 
 # The filename is in $_
 my $size_in_K = -s / 1024;  # Oops!
-
-my $size_in_k = (-s $filename) / 1024;  # uses $_ by default
+my $size_in_k = (-s) / 1024;  # Uses $_ by default
 
 # of course, it's always safe to explicitly give a file test a parameter
-my $size_in-k = (-s $filename) / 1024;
+my $size_in_k = (-s $filename) / 1024;  # uses $_ by default
