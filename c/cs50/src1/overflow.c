@@ -7,6 +7,7 @@ int main(void)
     for (int i = 0; i < 64; i++)
     {
         printf("%i\n", n);
+        // printf("%lld\n", n)      test long version
         n = n * 2;
     }
 }

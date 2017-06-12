@@ -1,7 +1,7 @@
-#include <cs50.h>
+#include <cs50.h>                    // header
 #include <stdio.h>
 
-void print_name(string name);
+void print_name(string name);        // predefined
 
 int main(void)
 {

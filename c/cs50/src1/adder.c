@@ -12,5 +12,5 @@ int main(void)
     int y = get_int();
     
     // calculate sum for user
-    printf("sum is %i\n", x + y);
+    printf("sum is %i\n", x + y);  // format syntax
 }

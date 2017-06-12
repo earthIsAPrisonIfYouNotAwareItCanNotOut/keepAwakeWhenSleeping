@@ -4,7 +4,7 @@
 int main(void)
 {
     int c = get_char();
-    if (c == 'Y' || c == 'y')
+    if (c == 'Y' || c == 'y')        // char  equal  or
     {
         printf("yes\n");
     }

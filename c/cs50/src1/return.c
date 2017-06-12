@@ -12,5 +12,5 @@ int main(void)
 
 int square(int n)
 {
-    return n * n;
+    return n * n;          // return type
 }
