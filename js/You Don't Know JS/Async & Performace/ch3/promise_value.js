@@ -4,8 +4,7 @@
 
 function add(xPromise,yPromise) {
         // `Promise.all([ .. ])` takes an array of promises,
-        // and returns a new promise that waits on them
-        // all to finish
+        // and returns a new promise that waits on them all to finish
         return Promise.all( [xPromise, yPromise] )
 
         // when that promise is resolved, let's take the
@@ -18,12 +17,10 @@ function add(xPromise,yPromise) {
 }
 
 // `fetchX()` and `fetchY()` return promises for
-// their respective values, which may be ready
-// *now* or *later*.
+// their respective values, which may be ready now or later
 add( fetchX(), fetchY() )
 
-// we get a promise back for the sum of those
-// two numbers.
+// we get a promise back for the sum of those two numbers.
 // now we chain-call `then(..)` to wait for the
 // resolution of that returned promise.
 .then( function(sum){
